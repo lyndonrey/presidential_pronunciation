@@ -37,7 +37,7 @@ directory = sys.argv[1] # The input directory must be in quotes (in Bash anyway)
 # Get all the wav files from directory to parse 
 wavs = glob.glob(directory)
 
-dataFile = sys.argv[2] # Output file for data:w
+dataFile = sys.argv[2] # Output file for data
 
 f = open(dataFile, "w+") # Create file if it doesn't exist
 f.close()
