@@ -3,8 +3,7 @@
 from subprocess import call
 from multiprocessing import Process as Task, Queue
 import time, sys, collections, subprocess, glob
- 
-# I love Julia 
+
 
 def callPraat(wavIn, dataOut):
     """ Calls the praat formant getter script on the wav file param, and prints to file """
